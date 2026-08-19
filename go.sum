@@ -1,0 +1,8 @@
+github.com/BluntSporks/cmudict v0.0.0-20150601090622-51ce4c50df90 h1:Ck1ry+8Foq8wadeUHSukoHvZwk4QdJvyJ2Jk6caJa3w=
+github.com/BluntSporks/cmudict v0.0.0-20150601090622-51ce4c50df90/go.mod h1:yITgcAV994Fph6lcJCmBLiwyFEveagiKzcN2xzX3c78=
+github.com/gopxl/beep v1.4.1 h1:WqNs9RsDAhG9M3khMyc1FaVY50dTdxG/6S6a3qsUHqE=
+github.com/gopxl/beep v1.4.1/go.mod h1:A1dmiUkuY8kxsvcNJNUBIEcchmiP6eUyCHSxpXl0YO0=
+github.com/gopxl/beep/v2 v2.1.1 h1:6FYIYMm2qPAdWkjX+7xwKrViS1x0Po5kDMdRkq8NVbU=
+github.com/gopxl/beep/v2 v2.1.1/go.mod h1:ZAm9TGQ9lvpoiFLd4zf5B1IuyxZhgRACMId1XJbaW0E=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
