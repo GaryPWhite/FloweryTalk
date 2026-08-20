@@ -67,7 +67,6 @@ func (p Phonemizer) Parse(sentence string) (phonemes []string) {
 		if len(phones) == 0 {
 			log.Printf("could not find phones for %s", word)
 		}
-		phones = append(phones, "\\w")
 		phonemes = append(phonemes, phones...)
 	}
 	return

@@ -17,9 +17,6 @@ func (s Synthesizer) ResolvePhonemeFiles(phonemes []string) ([][]string, error) 
 		if punct.Match([]byte(p)) {
 			allFiles[i] = []string{p}
 			continue
-		} else if p == "\\w" {
-			allFiles[i] = []string{"\\w"}
-			continue
 		}
 
 		files, ok := s.clips[p]
