@@ -1,8 +1,6 @@
 package synthesizer
 
 import (
-	"log"
-	"math/rand"
 	"os"
 	"regexp"
 	"strings"
@@ -19,28 +17,22 @@ const (
 
 // accepts a list of phonemes, and generates text-to-speech for those phonemes.
 // will generate a `.wav` file with appropriate timestamp / name provided
-func SynthFiles(files [][]string, outputPath string) error {
+func SynthFiles(files []string, outputPath string) error {
 	synthb := beep.NewBuffer(beep.Format{SampleRate: beep.SampleRate(samplesPerSecond), NumChannels: 2, Precision: 2})
 	punct := regexp.MustCompile(punct_regexp)
 	// fill buffer with loaded files
-	for i, fileList := range files {
-		if len(fileList) == 1 && (punct.Match([]byte(fileList[0]))) {
-			synthb.Append(punctSilence(fileList[0]))
+	for _, file := range files {
+		if punct.Match([]byte(file)) {
+			synthb.Append(punctSilence(file))
 			continue
 		}
 		// select a random file from the list and add it to the buffer
-		idx := rand.Intn(len(fileList))
-		toLoad := fileList[idx]
-		streamer, err := LoadAudioClip(toLoad)
+		streamer, err := LoadAudioClip(file)
 		if err != nil {
 			return err
 		}
 		synthb.Append(streamer)
-		// TODO: remove debug
-		log.Println(fileList[idx])
-		if i == len(files)-1 {
-			synthb.Append(generators.Silence(samplesPerSecond / 25)) // word boundaries
-		}
+		synthb.Append(generators.Silence(samplesPerSecond / 25)) // word boundaries
 	}
 	// save the buffer to a file
 	out, err := os.Create(outputPath)

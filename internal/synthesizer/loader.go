@@ -9,8 +9,8 @@ import (
 	"github.com/gopxl/beep/wav"
 )
 
-//go:embed phonemes/*.wav
-var phonemes embed.FS
+//go:embed */*.wav
+var soundFiles embed.FS
 
 //go:embed phonemes/manifest.json
 var manifestBytes []byte
@@ -18,9 +18,13 @@ var manifestBytes []byte
 //go:embed phonemes/fallbacks.json
 var fallbacksBytes []byte
 
+//go:embed words/manifest.json
+var wordsManifestBytes []byte
+
 type Synthesizer struct {
 	clips     map[string][]string
 	fallbacks map[string][]string
+	words     map[string][]string
 }
 
 // Provides a
@@ -35,6 +39,10 @@ func NewSynthesizer() Synthesizer {
 	if err != nil {
 		log.Fatalf("Failed to load manifest %s", err)
 	}
+	err = json.Unmarshal(wordsManifestBytes, &synth.words)
+	if err != nil {
+		log.Fatalf("Failed to load words manifest %s", err)
+	}
 	return synth
 }
 
@@ -42,7 +50,7 @@ func NewSynthesizer() Synthesizer {
 // Returns file contents in sequential order, the same order as files given.
 // Produces an err if file is not found / unreadable.
 func LoadAudioClip(file string) (beep.Streamer, error) {
-	raw, err := phonemes.Open(file)
+	raw, err := soundFiles.Open(file)
 	if err != nil {
 		log.Printf("failed to read phoneme file given %s", file)
 		return nil, err

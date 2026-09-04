@@ -6,22 +6,46 @@
     "phonemes/AA1_3.wav"
   ],
   "AE1": [
+    "phonemes/AE1_6.wav",
+    "phonemes/AE1_7.wav",
+    "phonemes/AE1_9.wav",
+    "phonemes/AE1_11.wav",
     "phonemes/AE1_12.wav",
-    "phonemes/AE1_13.wav",
     "phonemes/AE1_18.wav"
   ],
   "AH0": [
+    "phonemes/AH0_0.wav",
     "phonemes/AH0_1.wav",
+    "phonemes/AH0_10.wav",
+    "phonemes/AH0_12.wav",
+    "phonemes/AH0_15.wav",
+    "phonemes/AH0_17.wav",
+    "phonemes/AH0_2.wav",
+    "phonemes/AH0_24.wav",
+    "phonemes/AH0_3.wav",
+    "phonemes/AH0_34.wav",
+    "phonemes/AH0_35.wav",
+    "phonemes/AH0_36.wav",
+    "phonemes/AH0_38.wav",
     "phonemes/AH0_4.wav",
     "phonemes/AH0_6.wav",
-    "phonemes/AH0_35.wav"
+    "phonemes/AH0_8.wav",
+    "phonemes/AH0_9.wav",
+    "phonemes/AH0_34.wav"
   ],
   "AH1": [
+    "phonemes/AH1_1.wav",
+    "phonemes/AH1_3.wav",
+    "phonemes/AH1_4.wav",
     "phonemes/AH1_5.wav",
+    "phonemes/AH1_15.wav",
     "phonemes/AH1_12.wav",
     "phonemes/AH1_11.wav"
   ],
   "AO1": [
+    "phonemes/AO1_0.wav",
+    "phonemes/AO1_2.wav",
+    "phonemes/AO1_4.wav",
     "phonemes/AO1_5.wav",
     "phonemes/AO1_6.wav"
   ],
@@ -33,10 +57,12 @@
     "phonemes/AW1_2.wav",
     "phonemes/AW1_4.wav",
     "phonemes/AW1_5.wav",
-    "phonemes/AW1_6.wav"
+    "phonemes/AW1_6.wav",
+    "phonemes/AW1_7.wav"
   ],
   "AY1": [
     "phonemes/AY1_0.wav",
+    "phonemes/AY1_1.wav",
     "phonemes/AY1_10.wav",
     "phonemes/AY1_12.wav",
     "phonemes/AY1_18.wav",
@@ -49,16 +75,12 @@
     "phonemes/AY1_4.wav",
     "phonemes/AY1_5.wav",
     "phonemes/AY1_6.wav",
-    "phonemes/AY1_8.wav"
+    "phonemes/AY1_7.wav",
+    "phonemes/AY1_8.wav",
+    "phonemes/AY1_9.wav"
   ],
   "B": [
-    "phonemes/B_0.wav",
-    "phonemes/B_1.wav",
-    "phonemes/B_10.wav",
-    "phonemes/B_11.wav",
-    "phonemes/B_12.wav",
     "phonemes/B_13.wav",
-    "phonemes/B_2.wav",
     "phonemes/B_3.wav",
     "phonemes/B_4.wav",
     "phonemes/B_6.wav",
@@ -73,19 +95,17 @@
     "phonemes/CH_3.wav"
   ],
   "D": [
+    "phonemes/D_13.wav",
+    "phonemes/D_15.wav",
+    "phonemes/D_19.wav",
     "phonemes/D_22.wav",
     "phonemes/D_24.wav",
     "phonemes/D_8.wav"
   ],
   "DH": [
-    "phonemes/DH_0.wav",
-    "phonemes/DH_1.wav",
     "phonemes/DH_10.wav",
     "phonemes/DH_11.wav",
-    "phonemes/DH_12.wav",
-    "phonemes/DH_2.wav",
-    "phonemes/DH_3.wav",
-    "phonemes/DH_4.wav",
+    "phonemes/DH_6.wav",
     "phonemes/DH_7.wav",
     "phonemes/DH_9.wav"
   ],
@@ -93,6 +113,9 @@
     "phonemes/EH1_14.wav",
     "phonemes/EH1_15.wav",
     "phonemes/EH1_18.wav",
+    "phonemes/EH1_19.wav",
+    "phonemes/EH1_20.wav",
+    "phonemes/EH1_0.wav",
     "phonemes/EH1_7.wav"
   ],
   "ER0": [
@@ -108,24 +131,16 @@
   ],
   "EY1": [
     "phonemes/EY1_0.wav",
-    "phonemes/EY1_1.wav",
-    "phonemes/EY1_10.wav",
-    "phonemes/EY1_12.wav",
-    "phonemes/EY1_13.wav",
-    "phonemes/EY1_15.wav",
-    "phonemes/EY1_16.wav",
+    "phonemes/EY1_11.wav",
+    "phonemes/EY1_14.wav",
     "phonemes/EY1_17.wav",
-    "phonemes/EY1_18.wav",
-    "phonemes/EY1_19.wav",
-    "phonemes/EY1_20.wav",
-    "phonemes/EY1_22.wav",
+    "phonemes/EY1_21.wav",
     "phonemes/EY1_3.wav",
     "phonemes/EY1_4.wav",
     "phonemes/EY1_5.wav",
     "phonemes/EY1_6.wav",
     "phonemes/EY1_7.wav",
-    "phonemes/EY1_8.wav",
-    "phonemes/EY1_9.wav"
+    "phonemes/EY1_8.wav"
   ],
   "F": [
     "phonemes/F_0.wav",
@@ -135,21 +150,18 @@
     "phonemes/F_15.wav",
     "phonemes/F_16.wav",
     "phonemes/F_18.wav",
-    "phonemes/F_20.wav",
     "phonemes/F_3.wav",
     "phonemes/F_4.wav",
     "phonemes/F_6.wav",
-    "phonemes/F_9.wav"
+    "phonemes/F_7.wav"
   ],
   "G": [
-    "phonemes/G_0.wav",
     "phonemes/G_1.wav",
     "phonemes/G_10.wav",
     "phonemes/G_11.wav",
     "phonemes/G_12.wav",
     "phonemes/G_13.wav",
     "phonemes/G_14.wav",
-    "phonemes/G_15.wav",
     "phonemes/G_16.wav",
     "phonemes/G_17.wav",
     "phonemes/G_18.wav",
@@ -157,52 +169,44 @@
     "phonemes/G_2.wav",
     "phonemes/G_20.wav",
     "phonemes/G_21.wav",
-    "phonemes/G_23.wav",
-    "phonemes/G_3.wav",
     "phonemes/G_4.wav",
-    "phonemes/G_5.wav",
     "phonemes/G_6.wav",
     "phonemes/G_7.wav",
     "phonemes/G_8.wav",
     "phonemes/G_9.wav"
   ],
   "HH": [
-    "phonemes/HH_0.wav",
-    "phonemes/HH_1.wav",
     "phonemes/HH_10.wav",
     "phonemes/HH_11.wav",
     "phonemes/HH_12.wav",
     "phonemes/HH_13.wav",
     "phonemes/HH_14.wav",
     "phonemes/HH_17.wav",
-    "phonemes/HH_18.wav",
     "phonemes/HH_21.wav",
     "phonemes/HH_3.wav",
-    "phonemes/HH_4.wav",
     "phonemes/HH_5.wav",
     "phonemes/HH_6.wav",
     "phonemes/HH_7.wav",
     "phonemes/HH_8.wav"
   ],
   "IH0": [
-    "phonemes/IH0_0.wav",
     "phonemes/IH0_1.wav",
+    "phonemes/IH0_2.wav",
+    "phonemes/IH0_7.wav",
+    "phonemes/IH0_8.wav",
     "phonemes/IH0_11.wav",
     "phonemes/IH0_13.wav",
-    "phonemes/IH0_14.wav",
     "phonemes/IH0_18.wav",
     "phonemes/IH0_19.wav",
-    "phonemes/IH0_2.wav",
-    "phonemes/IH0_20.wav",
-    "phonemes/IH0_21.wav",
-    "phonemes/IH0_22.wav",
-    "phonemes/IH0_23.wav",
-    "phonemes/IH0_6.wav",
-    "phonemes/IH0_7.wav",
-    "phonemes/IH0_8.wav"
+    "phonemes/IH0_24.wav",
+    "phonemes/IH0_26.wav"
   ],
   "IH1": [
-    "phonemes/IH1_15.wav"
+    "phonemes/IH1_0.wav",
+    "phonemes/IH1_4.wav",
+    "phonemes/IH1_5.wav",
+    "phonemes/IH1_12.wav",
+    "phonemes/IH1_19.wav"
   ],
   "IY0": [
     "phonemes/IY0_14.wav",
@@ -217,8 +221,8 @@
     "phonemes/IY1_15.wav",
     "phonemes/IY1_4.wav",
     "phonemes/IY1_5.wav",
+    "phonemes/IY1_6.wav",
     "phonemes/IY1_7.wav",
-    "phonemes/IY1_8.wav",
     "phonemes/IY1_9.wav"
   ],
   "JH": [
@@ -250,18 +254,8 @@
     "phonemes/M_11.wav",
     "phonemes/M_12.wav",
     "phonemes/M_13.wav",
-    "phonemes/M_15.wav",
-    "phonemes/M_16.wav",
     "phonemes/M_17.wav",
-    "phonemes/M_18.wav",
-    "phonemes/M_19.wav",
     "phonemes/M_21.wav",
-    "phonemes/M_22.wav",
-    "phonemes/M_24.wav",
-    "phonemes/M_29.wav",
-    "phonemes/M_30.wav",
-    "phonemes/M_31.wav",
-    "phonemes/M_32.wav",
     "phonemes/M_4.wav",
     "phonemes/M_5.wav"
   ],
@@ -275,7 +269,6 @@
   "NG": [
     "phonemes/NG_10.wav",
     "phonemes/NG_11.wav",
-    "phonemes/NG_15.wav",
     "phonemes/NG_6.wav"
   ],
   "OW0": [
@@ -299,6 +292,7 @@
   ],
   "R": [
     "phonemes/R_16.wav",
+    "phonemes/R_13.wav",
     "phonemes/R_51.wav",
     "phonemes/R_7.wav"
   ],
@@ -338,11 +332,8 @@
   ],
   "T": [
     "phonemes/T_11.wav",
-    "phonemes/T_13.wav",
-    "phonemes/T_14.wav",
     "phonemes/T_30.wav",
     "phonemes/T_44.wav",
-    "phonemes/T_49.wav",
     "phonemes/T_6.wav"
   ],
   "TH": [
@@ -393,13 +384,10 @@
     "phonemes/Y_8.wav"
   ],
   "Z": [
-    "phonemes/Z_0.wav",
     "phonemes/Z_1.wav",
     "phonemes/Z_11.wav",
-    "phonemes/Z_12.wav",
     "phonemes/Z_13.wav",
     "phonemes/Z_16.wav",
-    "phonemes/Z_19.wav",
     "phonemes/Z_2.wav",
     "phonemes/Z_3.wav",
     "phonemes/Z_4.wav",

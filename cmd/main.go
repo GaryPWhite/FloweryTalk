@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 
-	. "github.com/garypwhite/flowerytalk/internal/g2p"
 	. "github.com/garypwhite/flowerytalk/internal/synthesizer"
 )
 
@@ -19,11 +18,10 @@ func main() {
 	}
 	if len(*output) == 0 {
 		*output = "~/flowery.wav"
+		log.Printf("no output given, writing to flowery.wav")
 	}
-	phonemizer := NewPhonemizer()
-	phonemes := phonemizer.Parse(*prompt)
 	synthesizer := NewSynthesizer()
-	files, err := synthesizer.ResolvePhonemeFiles(phonemes)
+	files, err := synthesizer.ResolveSentenceFiles(*prompt)
 	if err != nil {
 		log.Fatalf("could not resolve files, err %e", err)
 	}

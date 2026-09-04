@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"embed"
 	"log"
-	"regexp"
 	"strings"
 )
 
@@ -43,33 +42,23 @@ func NewPhonemizer() Phonemizer {
 // the phonemes will be returned in the provided order, with punctuation preserved.
 // Note that we do not parse apostrophes, etc -- punctuation is given back to allow
 // for space between words (commas, periods, etc.)
-func (p Phonemizer) Parse(sentence string) (phonemes []string) {
-	re := regexp.MustCompile(`[^A-Za-z\s!?.,']`)
-	punct := regexp.MustCompile("([!?.,])")
-	sentence = re.ReplaceAllString(sentence, "")        // remove unneeded punct
-	sentence = punct.ReplaceAllString(sentence, " $1 ") // add padding to parse punct
-	for _, word := range strings.Split(sentence, " ") {
-		if len(word) == 0 { // double spaces, etc. do not add anything
-			continue
-		}
-		if punct.Match([]byte(word)) { // add punctuation by itself
-			phonemes = append(phonemes, word)
-			continue
-		}
-		word = strings.ToUpper(word)
-		phones, ok := p.phoneticWords[word]
-		if !ok {
-			phones, ok = p.nearMatch(word)
-			if !ok {
-				phones = p.byLetter(word)
-			}
-		}
-		if len(phones) == 0 {
-			log.Printf("could not find phones for %s", word)
-		}
-		phonemes = append(phonemes, phones...)
+func (p Phonemizer) ParseWord(word string) (phonemes []string) {
+	if len(word) == 0 { // double spaces, etc. do not add anything
+		return []string{}
 	}
-	return
+	word = strings.ToUpper(word)
+	phones, ok := p.phoneticWords[word]
+	if !ok {
+		phones, ok = p.nearMatch(word)
+		if !ok {
+			phones = p.byLetter(word)
+		}
+	}
+	if len(phones) == 0 {
+		log.Printf("could not find phones for %s", word)
+	}
+	phonemes = append(phonemes, phones...)
+	return phonemes
 }
 
 // attempt to remove suffixes, if none exist, or no word exists without the suffix, false.

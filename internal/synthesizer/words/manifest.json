@@ -1,0 +1,551 @@
+{
+  "a": [
+      "words/a_0.wav",
+      "words/a_1.wav",
+      "words/a_10.wav",
+      "words/a_2.wav",
+      "words/a_3.wav",
+      "words/a_4.wav",
+      "words/a_5.wav",
+      "words/a_6.wav",
+      "words/a_7.wav",
+      "words/a_8.wav",
+      "words/a_9.wav"
+  ],
+  "about": [
+      "words/about_0.wav",
+      "words/about_1.wav",
+      "words/about_2.wav"
+  ],
+  "according": [
+      "words/according_0.wav",
+      "words/according_1.wav"
+  ],
+  "again": [
+      "words/again_0.wav",
+      "words/again_1.wav",
+      "words/again_2.wav"
+  ],
+  "all": [
+      "words/all_0.wav",
+      "words/all_1.wav",
+      "words/all_2.wav",
+      "words/all_3.wav"
+  ],
+  "and": [
+      "words/and_0.wav"
+  ],
+  "best": [
+      "words/best_0.wav",
+      "words/best_1.wav"
+  ],
+  "bling": [
+      "words/bling_0.wav"
+  ],
+  "blizzard": [
+      "words/blizzard_0.wav"
+  ],
+  "blooms": [
+      "words/blooms_0.wav"
+  ],
+  "blow": [
+      "words/blow_0.wav"
+  ],
+  "boys": [
+      "words/boys_0.wav",
+      "words/boys_1.wav"
+  ],
+  "calling": [
+      "words/calling_0.wav"
+  ],
+  "chance": [
+      "words/chance_0.wav",
+      "words/chance_1.wav"
+  ],
+  "children": [
+      "words/children_0.wav"
+  ],
+  "combined": [
+      "words/combined_0.wav"
+  ],
+  "come": [
+      "words/come_0.wav",
+      "words/come_1.wav",
+      "words/come_2.wav",
+      "words/come_3.wav"
+  ],
+  "creature": [
+      "words/creature_0.wav"
+  ],
+  "dad's": [
+      "words/dads_0.wav"
+  ],
+  "dance": [
+      "words/dance_0.wav"
+  ],
+  "dead": [
+      "words/dead_0.wav"
+  ],
+  "diner": [
+      "words/diner_0.wav"
+  ],
+  "dingus": [
+      "words/dingus_0.wav"
+  ],
+  "don't": [
+      "words/dont_0.wav"
+  ],
+  "dreams": [
+      "words/dreams_0.wav"
+  ],
+  "eating": [
+      "words/eating_0.wav"
+  ],
+  "falling": [
+      "words/falling_0.wav"
+  ],
+  "fans": [
+      "words/fans_0.wav"
+  ],
+  "favorite": [
+      "words/favorite_0.wav"
+  ],
+  "flavor": [
+      "words/flavor_0.wav"
+  ],
+  "flesh": [
+      "words/flesh_0.wav"
+  ],
+  "flowers": [
+      "words/flowers_0.wav"
+  ],
+  "flowery": [
+      "words/flowery_0.wav",
+      "words/flowery_1.wav",
+      "words/flowery_2.wav",
+      "words/flowery_3.wav"
+  ],
+  "for": [
+      "words/for_0.wav",
+      "words/for_1.wav"
+  ],
+  "forget": [
+      "words/forget_0.wav"
+  ],
+  "found": [
+      "words/found_0.wav"
+  ],
+  "fran": [
+      "words/fran_0.wav"
+  ],
+  "friend": [
+      "words/friend_0.wav",
+      "words/friend_1.wav"
+  ],
+  "get": [
+      "words/get_0.wav",
+      "words/get_1.wav"
+  ],
+  "give": [
+      "words/give_0.wav"
+  ],
+  "glue": [
+      "words/glue_0.wav",
+      "words/glue_1.wav"
+  ],
+  "go": [
+      "words/go_0.wav",
+      "words/go_1.wav"
+  ],
+  "goodbye": [
+      "words/goodbye_0.wav"
+  ],
+  "great": [
+      "words/great_0.wav",
+      "words/great_1.wav"
+  ],
+  "grown": [
+      "words/grown_0.wav"
+  ],
+  "guy": [
+      "words/guy_0.wav",
+      "words/guy_1.wav",
+      "words/guy_2.wav"
+  ],
+  "guys": [
+      "words/guys_0.wav",
+      "words/guys_1.wav",
+      "words/guys_2.wav",
+      "words/guys_3.wav"
+  ],
+  "ha": [
+      "words/ha_0.wav",
+      "words/ha_1.wav",
+      "words/ha_2.wav"
+  ],
+  "heart": [
+      "words/heart_0.wav"
+  ],
+  "heh": [
+      "words/heh_0.wav",
+      "words/heh_1.wav"
+  ],
+  "help": [
+      "words/help_0.wav",
+      "words/help_1.wav"
+  ],
+  "here": [
+      "words/here_0.wav",
+      "words/here_1.wav",
+      "words/here_2.wav",
+      "words/here_3.wav"
+  ],
+  "hero": [
+      "words/hero_0.wav"
+  ],
+  "hey": [
+      "words/hey_0.wav",
+      "words/hey_1.wav",
+      "words/hey_2.wav",
+      "words/hey_3.wav",
+      "words/hey_4.wav",
+      "words/hey_5.wav"
+  ],
+  "home": [
+      "words/home_0.wav"
+  ],
+  "huh": [
+      "words/huh_0.wav"
+  ],
+  "human": [
+      "words/human_0.wav",
+      "words/human_1.wav"
+  ],
+  "humans": [
+      "words/humans_0.wav"
+  ],
+  "i": [
+      "words/i_0.wav",
+      "words/i_1.wav",
+      "words/i_2.wav",
+      "words/i_3.wav",
+      "words/i_4.wav",
+      "words/i_5.wav",
+      "words/i_6.wav"
+  ],
+  "i'll": [
+      "words/ill_0.wav"
+  ],
+  "i'm": [
+      "words/im_0.wav",
+      "words/im_1.wav",
+      "words/im_2.wav"
+  ],
+  "in": [
+      "words/in_0.wav",
+      "words/in_1.wav",
+      "words/in_2.wav",
+      "words/in_3.wav"
+  ],
+  "it": [
+      "words/it_0.wav",
+      "words/it_1.wav",
+      "words/it_2.wav"
+  ],
+  "it's": [
+      "words/its_0.wav",
+      "words/its_1.wav",
+      "words/its_2.wav",
+      "words/its_3.wav",
+      "words/its_4.wav",
+      "words/its_5.wav"
+  ],
+  "jarona": [
+      "words/jarona_0.wav",
+      "words/jarona_1.wav",
+      "words/jarona_2.wav",
+      "words/jarona_3.wav",
+      "words/jarona_4.wav"
+  ],
+  "juh": [
+      "words/juh_0.wav",
+      "words/juh_1.wav"
+  ],
+  "just": [
+      "words/just_0.wav"
+  ],
+  "keep": [
+      "words/keep_0.wav",
+      "words/keep_1.wav",
+      "words/keep_2.wav",
+      "words/keep_3.wav"
+  ],
+  "kept": [
+      "words/kept_0.wav"
+  ],
+  "kidding": [
+      "words/kidding_0.wav"
+  ],
+  "king": [
+      "words/king_0.wav"
+  ],
+  "kris": [
+      "words/kris_0.wav"
+  ],
+  "ladies": [
+      "words/ladies_0.wav"
+  ],
+  "lady": [
+      "words/lady_0.wav",
+      "words/lady_1.wav"
+  ],
+  "last": [
+      "words/last_0.wav"
+  ],
+  "leaf": [
+      "words/leaf_0.wav"
+  ],
+  "lee": [
+      "words/lee_0.wav"
+  ],
+  "lend": [
+      "words/lend_0.wav"
+  ],
+  "like": [
+      "words/like_0.wav",
+      "words/like_1.wav"
+  ],
+  "little": [
+      "words/little_0.wav",
+      "words/little_1.wav"
+  ],
+  "me": [
+      "words/me_0.wav",
+      "words/me_1.wav",
+      "words/me_2.wav",
+      "words/me_3.wav"
+  ],
+  "mini": [
+      "words/mini_0.wav"
+  ],
+  "more": [
+      "words/more_0.wav"
+  ],
+  "most": [
+      "words/most_0.wav"
+  ],
+  "my": [
+      "words/my_0.wav",
+      "words/my_1.wav",
+      "words/my_2.wav",
+      "words/my_3.wav",
+      "words/my_4.wav",
+      "words/my_5.wav",
+      "words/my_6.wav"
+  ],
+  "mysterious": [
+      "words/mysterious_0.wav"
+  ],
+  "name": [
+      "words/name_0.wav"
+  ],
+  "no": [
+      "words/no_0.wav",
+      "words/no_1.wav",
+      "words/no_2.wav",
+      "words/no_3.wav"
+  ],
+  "omega": [
+      "words/omega_0.wav"
+  ],
+  "once": [
+      "words/once_0.wav"
+  ],
+  "one": [
+      "words/one_0.wav"
+  ],
+  "only": [
+      "words/only_0.wav"
+  ],
+  "orange": [
+      "words/orange_0.wav",
+      "words/orange_1.wav"
+  ],
+  "peppers": [
+      "words/peppers_0.wav"
+  ],
+  "plant": [
+      "words/plant_0.wav"
+  ],
+  "power": [
+      "words/power_0.wav"
+  ],
+  "powers": [
+      "words/powers_0.wav"
+  ],
+  "predictable": [
+      "words/predictable_0.wav"
+  ],
+  "prism": [
+      "words/prism_0.wav"
+  ],
+  "rally": [
+      "words/rally_0.wav"
+  ],
+  "san": [
+      "words/san_0.wav"
+  ],
+  "sanfrandisco": [
+      "words/sanfrandisco_0.wav",
+      "words/sanfrandisco_1.wav",
+      "words/sanfrandisco_2.wav"
+  ],
+  "say": [
+      "words/say_0.wav"
+  ],
+  "serving": [
+      "words/serving_0.wav"
+  ],
+  "show": [
+      "words/show_0.wav"
+  ],
+  "smile": [
+      "words/smile_0.wav"
+  ],
+  "so": [
+      "words/so_0.wav"
+  ],
+  "sorry": [
+      "words/sorry_0.wav",
+      "words/sorry_1.wav",
+      "words/sorry_2.wav",
+      "words/sorry_3.wav",
+      "words/sorry_4.wav",
+      "words/sorry_5.wav",
+      "words/sorry_6.wav",
+      "words/sorry_7.wav"
+  ],
+  "spiral": [
+      "words/spiral_0.wav"
+  ],
+  "style": [
+      "words/style_0.wav"
+  ],
+  "suckle": [
+      "words/suckle_0.wav"
+  ],
+  "sus": [
+      "words/sus_0.wav"
+  ],
+  "susie": [
+      "words/susie_0.wav"
+  ],
+  "take": [
+      "words/take_0.wav"
+  ],
+  "that": [
+      "words/that_0.wav",
+      "words/that_1.wav",
+      "words/that_2.wav",
+      "words/that_3.wav"
+  ],
+  "that's": [
+      "words/thats_0.wav",
+      "words/thats_1.wav"
+  ],
+  "the": [
+      "words/the_0.wav",
+      "words/the_1.wav",
+      "words/the_2.wav",
+      "words/the_3.wav"
+  ],
+  "there": [
+      "words/there_0.wav"
+  ],
+  "they're": [
+      "words/theyre_0.wav"
+  ],
+  "think": [
+      "words/think_0.wav"
+  ],
+  "this": [
+      "words/this_0.wav"
+  ],
+  "to": [
+      "words/to_0.wav",
+      "words/to_1.wav",
+      "words/to_2.wav",
+      "words/to_3.wav",
+      "words/to_4.wav",
+      "words/to_5.wav",
+      "words/to_6.wav",
+      "words/to_7.wav",
+      "words/to_8.wav"
+  ],
+  "try": [
+      "words/try_0.wav"
+  ],
+  "trying": [
+      "words/trying_0.wav"
+  ],
+  "turnip": [
+      "words/turnip_0.wav"
+  ],
+  "two": [
+      "words/two_0.wav"
+  ],
+  "up": [
+      "words/up_0.wav"
+  ],
+  "waiting": [
+      "words/waiting_0.wav",
+      "words/waiting_1.wav",
+      "words/waiting_2.wav",
+      "words/waiting_3.wav"
+  ],
+  "way": [
+      "words/way_0.wav"
+  ],
+  "what": [
+      "words/what_0.wav"
+  ],
+  "who": [
+      "words/who_0.wav"
+  ],
+  "wind": [
+      "words/wind_0.wav"
+  ],
+  "with": [
+      "words/with_0.wav"
+  ],
+  "wow": [
+      "words/wow_0.wav"
+  ],
+  "yes": [
+      "words/yes_0.wav"
+  ],
+  "you": [
+      "words/you_0.wav",
+      "words/you_1.wav",
+      "words/you_2.wav",
+      "words/you_3.wav",
+      "words/you_4.wav",
+      "words/you_5.wav",
+      "words/you_6.wav"
+  ],
+  "you're": [
+      "words/youre_0.wav",
+      "words/youre_1.wav"
+  ],
+  "your": [
+      "words/your_0.wav",
+      "words/your_1.wav",
+      "words/your_2.wav",
+      "words/your_3.wav",
+      "words/your_4.wav",
+      "words/your_5.wav"
+  ],
+  "yours": [
+      "words/yours_0.wav"
+  ]
+}
