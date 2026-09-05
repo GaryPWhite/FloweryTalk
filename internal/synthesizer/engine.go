@@ -17,21 +17,23 @@ const (
 
 // accepts a list of phonemes, and generates text-to-speech for those phonemes.
 // will generate a `.wav` file with appropriate timestamp / name provided
-func SynthFiles(files []string, outputPath string) error {
+func SynthFiles(files [][]string, outputPath string) error {
 	synthb := beep.NewBuffer(beep.Format{SampleRate: beep.SampleRate(samplesPerSecond), NumChannels: 2, Precision: 2})
 	punct := regexp.MustCompile(punct_regexp)
 	// fill buffer with loaded files
-	for _, file := range files {
-		if punct.Match([]byte(file)) {
-			synthb.Append(punctSilence(file))
-			continue
+	for _, word := range files {
+		for _, file := range word {
+			if punct.Match([]byte(file)) {
+				synthb.Append(punctSilence(file))
+				continue
+			}
+			// select a random file from the list and add it to the buffer
+			streamer, err := LoadAudioClip(file)
+			if err != nil {
+				return err
+			}
+			synthb.Append(streamer)
 		}
-		// select a random file from the list and add it to the buffer
-		streamer, err := LoadAudioClip(file)
-		if err != nil {
-			return err
-		}
-		synthb.Append(streamer)
 		synthb.Append(generators.Silence(samplesPerSecond / 25)) // word boundaries
 	}
 	// save the buffer to a file
@@ -51,7 +53,7 @@ func SynthFiles(files []string, outputPath string) error {
 func punctSilence(punct string) beep.Streamer {
 	fullSilence := beep.NewBuffer(beep.Format{SampleRate: beep.SampleRate(samplesPerSecond), NumChannels: 2, Precision: 2})
 	for _, rn := range strings.Split(punct, "") {
-		divider := 2
+		divider := 4
 		if rn == "," {
 			divider = 10 // smaller stops for commas
 		}
