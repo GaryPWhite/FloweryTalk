@@ -227,10 +227,10 @@
       "words/i_5.wav",
       "words/i_6.wav"
   ],
-  "ill": [
+  "i'll": [
       "words/ill_0.wav"
   ],
-  "im": [
+  "i'm": [
       "words/im_0.wav",
       "words/im_1.wav",
       "words/im_2.wav"
@@ -454,7 +454,7 @@
   "there": [
       "words/there_0.wav"
   ],
-  "theyre": [
+  "they're": [
       "words/theyre_0.wav"
   ],
   "think": [
@@ -517,7 +517,7 @@
       "words/you_5.wav",
       "words/you_6.wav"
   ],
-  "youre": [
+  "you're": [
       "words/youre_0.wav",
       "words/youre_1.wav"
   ],
