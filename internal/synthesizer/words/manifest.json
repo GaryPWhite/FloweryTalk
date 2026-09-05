@@ -9,7 +9,6 @@
       "words/a_5.wav",
       "words/a_6.wav",
       "words/a_7.wav",
-      "words/a_8.wav",
       "words/a_9.wav"
   ],
   "about": [
@@ -77,7 +76,7 @@
   "creature": [
       "words/creature_0.wav"
   ],
-  "dad's": [
+  "dads": [
       "words/dads_0.wav"
   ],
   "dance": [
@@ -91,9 +90,6 @@
   ],
   "dingus": [
       "words/dingus_0.wav"
-  ],
-  "don't": [
-      "words/dont_0.wav"
   ],
   "dreams": [
       "words/dreams_0.wav"
@@ -126,8 +122,7 @@
       "words/flowery_3.wav"
   ],
   "for": [
-      "words/for_0.wav",
-      "words/for_1.wav"
+      "words/for_0.wav"
   ],
   "forget": [
       "words/forget_0.wav"
@@ -139,7 +134,6 @@
       "words/fran_0.wav"
   ],
   "friend": [
-      "words/friend_0.wav",
       "words/friend_1.wav"
   ],
   "get": [
@@ -233,10 +227,10 @@
       "words/i_5.wav",
       "words/i_6.wav"
   ],
-  "i'll": [
+  "ill": [
       "words/ill_0.wav"
   ],
-  "i'm": [
+  "im": [
       "words/im_0.wav",
       "words/im_1.wav",
       "words/im_2.wav"
@@ -248,11 +242,10 @@
       "words/in_3.wav"
   ],
   "it": [
-      "words/it_0.wav",
       "words/it_1.wav",
       "words/it_2.wav"
   ],
-  "it's": [
+  "its": [
       "words/its_0.wav",
       "words/its_1.wav",
       "words/its_2.wav",
@@ -444,7 +437,6 @@
       "words/take_0.wav"
   ],
   "that": [
-      "words/that_0.wav",
       "words/that_1.wav",
       "words/that_2.wav",
       "words/that_3.wav"
@@ -462,7 +454,7 @@
   "there": [
       "words/there_0.wav"
   ],
-  "they're": [
+  "theyre": [
       "words/theyre_0.wav"
   ],
   "think": [
@@ -472,15 +464,8 @@
       "words/this_0.wav"
   ],
   "to": [
-      "words/to_0.wav",
-      "words/to_1.wav",
       "words/to_2.wav",
-      "words/to_3.wav",
-      "words/to_4.wav",
-      "words/to_5.wav",
-      "words/to_6.wav",
-      "words/to_7.wav",
-      "words/to_8.wav"
+      "words/to_4.wav"
   ],
   "try": [
       "words/try_0.wav"
@@ -525,7 +510,6 @@
       "words/yes_0.wav"
   ],
   "you": [
-      "words/you_0.wav",
       "words/you_1.wav",
       "words/you_2.wav",
       "words/you_3.wav",
@@ -533,7 +517,7 @@
       "words/you_5.wav",
       "words/you_6.wav"
   ],
-  "you're": [
+  "youre": [
       "words/youre_0.wav",
       "words/youre_1.wav"
   ],
