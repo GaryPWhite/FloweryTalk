@@ -1,6 +1,7 @@
 package synthesizer
 
 import (
+	"log"
 	"os"
 	"regexp"
 	"strings"
@@ -29,6 +30,8 @@ func SynthFiles(files [][]string, outputPath string) error {
 			}
 			// select a random file from the list and add it to the buffer
 			streamer, err := LoadAudioClip(file)
+			// TODO: remove debug
+			log.Println(file)
 			if err != nil {
 				return err
 			}

@@ -197,7 +197,6 @@
     "phonemes/IH0_11.wav",
     "phonemes/IH0_13.wav",
     "phonemes/IH0_18.wav",
-    "phonemes/IH0_19.wav",
     "phonemes/IH0_24.wav",
     "phonemes/IH0_26.wav"
   ],
@@ -341,8 +340,10 @@
     "phonemes/TH_1.wav"
   ],
   "UH1": [
-    "phonemes/UH1_2.wav",
-    "phonemes/UH1_4.wav"
+    "phonemes/UH1_0.wav",
+    "phonemes/UH1_1.wav",
+    "phonemes/UH1_6.wav",
+    "phonemes/UH1_5.wav"
   ],
   "UH2": [
     "phonemes/UH2_0.wav"
