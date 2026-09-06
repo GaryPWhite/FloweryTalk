@@ -1,5 +1,7 @@
 # FloweryTalk
 
+This project is very much still a WIP, check back when I cut a release :)
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 _A spiritual successor to [MorshuTalk](https://github.com/n0spaces/MorshuTalk)_
