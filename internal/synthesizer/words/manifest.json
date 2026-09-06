@@ -2,7 +2,6 @@
   "a": [
       "words/a_0.wav",
       "words/a_1.wav",
-      "words/a_10.wav",
       "words/a_2.wav",
       "words/a_3.wav",
       "words/a_4.wav",
@@ -224,7 +223,6 @@
       "words/i_2.wav",
       "words/i_3.wav",
       "words/i_4.wav",
-      "words/i_5.wav",
       "words/i_6.wav"
   ],
   "i'll": [
@@ -245,7 +243,7 @@
       "words/it_1.wav",
       "words/it_2.wav"
   ],
-  "its": [
+  "it's": [
       "words/its_0.wav",
       "words/its_1.wav",
       "words/its_2.wav",
@@ -382,7 +380,7 @@
   "prism": [
       "words/prism_0.wav"
   ],
-  "rally": [
+  "raly": [
       "words/rally_0.wav"
   ],
   "san": [
@@ -511,7 +509,6 @@
   ],
   "you": [
       "words/you_1.wav",
-      "words/you_2.wav",
       "words/you_3.wav",
       "words/you_4.wav",
       "words/you_5.wav",
